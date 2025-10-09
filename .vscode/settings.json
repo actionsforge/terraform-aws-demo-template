@@ -54,8 +54,8 @@
   "terraform.format.vars": true,
   "terraform.languageServer": {
     "enabled": true,
-    "external": false,
-    "args": []
+    "external": true,
+    "args": ["serve"]
   },
   "terraform.codelens.referenceCount": true,
   "terraform.codelens.enable": true,
